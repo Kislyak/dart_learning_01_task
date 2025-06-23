@@ -9,21 +9,30 @@ void main() {
   // print('Perimeter: $perimeter');
   // print('Full squares: $fullSquares');
 
-  //Завдання 2: Оператори порівняння
-  double number = 55.0;
-  if (number > 50) {
-    print('Number bigger than 50');
-  } else {
-    print('Number less than or equal to 50');
-  }
-  if (number < 100) {
-    print('Number less than 100');
-  } else {
-    print('Number bigger than or equal to 100');
-  }
-  if (number % 5 == 0) {
-    print('Number is divisible by 5');
-  } else {
-    print('Number is not divisible by 5');
+  // //Завдання 2: Оператори порівняння
+  // double number = 55.0;
+  // if (number > 50) {
+  //   print('Number bigger than 50');
+  // } else {
+  //   print('Number less than or equal to 50');
+  // }
+  // if (number < 100) {
+  //   print('Number less than 100');
+  // } else {
+  //   print('Number bigger than or equal to 100');
+  // }
+  // if (number % 5 == 0) {
+  //   print('Number is divisible by 5');
+  // } else {
+  //   print('Number is not divisible by 5');
+  // }
+
+  // Завдання 3: Логічні оператори
+  bool hasMoney = true;
+  bool isStoreOpen = true;
+  if (hasMoney && isStoreOpen) {
+    print('I can buy something.');
+  } else if (!hasMoney || !isStoreOpen) {
+    print('I cannot buy anything.');
   }
 }
