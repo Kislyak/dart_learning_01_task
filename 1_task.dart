@@ -1,7 +1,11 @@
 void main() {
-  print("Hello, World!");
-  print("This is my first Dart program.");
-  print("I am learning Dart programming.");
-  print("Dart is a great language for building web and mobile apps.");
-  print("I am excited to learn more about Dart.");
+  // Завдання 1: Математичні оператори
+  double height = 30.9;
+  double width = 18.4;
+  double area = height * width;
+  double perimeter = 2 * (height + width);
+  int fullSquares = (height ~/ 1) * (width ~/ 1);
+  print('Area: $area');
+  print('Perimeter: $perimeter');
+  print('Full squares: $fullSquares');
 }
