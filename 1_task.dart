@@ -91,18 +91,29 @@ void main() {
   //     print('Невірний номер дня');
   // }
 
-  // Завдання 8: Цикли for
-  for (int i = 1; i <= 10; i++) {
-    print('Number: $i');
-  }
-  for (int i = 1; i <= 10; i++) {
-    if (i % 2 == 0) {
-      print('Number % 2: $i');
+  // // Завдання 8: Цикли for
+  // for (int i = 1; i <= 10; i++) {
+  //   print('Number: $i');
+  // }
+  // for (int i = 1; i <= 10; i++) {
+  //   if (i % 2 == 0) {
+  //     print('Number % 2: $i');
+  //   }
+  // }
+  // int sum = 0;
+  // for (int i = 1; i <= 10; i++) {
+  //   sum += i;
+  // }
+  // print('Sum = $sum');
+
+  // // Завдання 9: Цикли while
+  int count = 10;
+  while (count > 0) {
+    if (count % 2 == 0) {
+      print('Парне число: $count');
+    } else {
+      print('Непарне число: $count');
     }
+    count--;
   }
-  int sum = 0;
-  for (int i = 1; i <= 10; i++) {
-    sum += i;
-  }
-  print('Sum = $sum');
 }
