@@ -36,9 +36,20 @@ void main() {
   //   print('I cannot buy anything.');
   // }
 
-  // Завдання 4: Тернарний оператор
-  int temperature = 25;
-  String weather = temperature > 25 ? 'Тепло' : 'Холодно';
-  String realWeather = temperature < 10 ? 'Дуже холодно' : weather;
-  print(realWeather);
+  // // Завдання 4: Тернарний оператор
+  // int temperature = 25;
+  // String weather = temperature > 25 ? 'Тепло' : 'Холодно';
+  // String realWeather = temperature < 10 ? 'Дуже холодно' : weather;
+  // print(realWeather);
+
+  // Завдання 5: Оператори присвоєння
+  int score = 0;
+  int correctAnswers = 17;
+  int mistakes = 3;
+  int totalQuestions = 20;
+  score += correctAnswers * 10; // Додаємо бали за правильні відповіді
+  score -= mistakes * 5; // Віднімаємо бали за помилки
+  score *= 2; // Подвоюємо загальний бал
+  score ~/= totalQuestions; // Ділимо на загальну кількість питань
+  print('Score: $score');
 }
