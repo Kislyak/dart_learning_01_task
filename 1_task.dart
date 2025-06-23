@@ -53,18 +53,41 @@ void main() {
   // score ~/= totalQuestions; // Ділимо на загальну кількість питань
   // print('Score: $score');
 
-  // Завдання 6: Умовні конструкції if/else
-  int examScore = 56;
-  if (examScore >= 90) {
-    print('Відмінно');
-  } else if (examScore >= 75) {
-    print('Добре');
-  } else if (examScore >= 60) {
-    print('Задовільно');
-  } else {
-    print('Не здано');
-  }
-  if (examScore < 20) {
-    print('Повторити курс');
+  // // Завдання 6: Умовні конструкції if/else
+  // int examScore = 56;
+  // if (examScore >= 90) {
+  //   print('Відмінно');
+  // } else if (examScore >= 75) {
+  //   print('Добре');
+  // } else if (examScore >= 60) {
+  //   print('Задовільно');
+  // } else {
+  //   print('Не здано');
+  // }
+  // if (examScore < 20) {
+  //   print('Повторити курс');
+  // }
+
+  // Завдання 7: Конструкція switch statement
+  int dayNumber = 6;
+  switch (dayNumber) {
+    case 1:
+      print('Понеділок');
+    case 2:
+      print('Вівторок');
+    case 3:
+      print('Середа');
+    case 4:
+      print('Четвер');
+    case 5:
+      print('П\'ятниця');
+    case 6:
+      print('Субота');
+      print('Вихідний день');
+    case 7:
+      print('Неділя');
+      print('Вихідний день');
+    default:
+      print('Невірний номер дня');
   }
 }
