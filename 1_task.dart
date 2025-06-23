@@ -42,14 +42,29 @@ void main() {
   // String realWeather = temperature < 10 ? 'Дуже холодно' : weather;
   // print(realWeather);
 
-  // Завдання 5: Оператори присвоєння
-  int score = 0;
-  int correctAnswers = 17;
-  int mistakes = 3;
-  int totalQuestions = 20;
-  score += correctAnswers * 10; // Додаємо бали за правильні відповіді
-  score -= mistakes * 5; // Віднімаємо бали за помилки
-  score *= 2; // Подвоюємо загальний бал
-  score ~/= totalQuestions; // Ділимо на загальну кількість питань
-  print('Score: $score');
+  // // Завдання 5: Оператори присвоєння
+  // int score = 0;
+  // int correctAnswers = 17;
+  // int mistakes = 3;
+  // int totalQuestions = 20;
+  // score += correctAnswers * 10; // Додаємо бали за правильні відповіді
+  // score -= mistakes * 5; // Віднімаємо бали за помилки
+  // score *= 2; // Подвоюємо загальний бал
+  // score ~/= totalQuestions; // Ділимо на загальну кількість питань
+  // print('Score: $score');
+
+  // Завдання 6: Умовні конструкції if/else
+  int examScore = 56;
+  if (examScore >= 90) {
+    print('Відмінно');
+  } else if (examScore >= 75) {
+    print('Добре');
+  } else if (examScore >= 60) {
+    print('Задовільно');
+  } else {
+    print('Не здано');
+  }
+  if (examScore < 20) {
+    print('Повторити курс');
+  }
 }
