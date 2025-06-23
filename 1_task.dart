@@ -106,14 +106,26 @@ void main() {
   // }
   // print('Sum = $sum');
 
-  // // Завдання 9: Цикли while
-  int count = 10;
-  while (count > 0) {
-    if (count % 2 == 0) {
-      print('Парне число: $count');
-    } else {
-      print('Непарне число: $count');
+  // // // Завдання 9: Цикли while
+  // int count = 10;
+  // while (count > 0) {
+  //   if (count % 2 == 0) {
+  //     print('Парне число: $count');
+  //   } else {
+  //     print('Непарне число: $count');
+  //   }
+  //   count--;
+  // }
+
+  // Завдання 10: Break і Continue
+  for (int i = 1; i <= 20; i++) {
+    if (i == 15) {
+      print('Break at $i');
+      break;
     }
-    count--;
+    if (i % 3 == 0) {
+      continue;
+    }
+    print('Current number: $i');
   }
 }
