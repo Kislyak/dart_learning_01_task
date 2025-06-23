@@ -27,12 +27,18 @@ void main() {
   //   print('Number is not divisible by 5');
   // }
 
-  // Завдання 3: Логічні оператори
-  bool hasMoney = true;
-  bool isStoreOpen = true;
-  if (hasMoney && isStoreOpen) {
-    print('I can buy something.');
-  } else if (!hasMoney || !isStoreOpen) {
-    print('I cannot buy anything.');
-  }
+  // // Завдання 3: Логічні оператори
+  // bool hasMoney = true;
+  // bool isStoreOpen = true;
+  // if (hasMoney && isStoreOpen) {
+  //   print('I can buy something.');
+  // } else if (!hasMoney || !isStoreOpen) {
+  //   print('I cannot buy anything.');
+  //}
+
+  // Завдання 4: Тернарний оператор
+  int temperature = 25;
+  String weather = (temperature > 25) ? 'Тепло' : 'Холодно';
+  String weatherDescription = (temperature < 10) ? 'Дуже холодно' : weather;
+  print('Зараз $weather.');
 }
